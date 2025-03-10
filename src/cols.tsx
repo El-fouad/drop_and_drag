@@ -2,7 +2,7 @@ import { useMotionValue, Reorder, useDragControls } from "framer-motion";
 import { useRaisedShadow } from "./use-raised-shadow";
 import { LeadInfo } from "./App";
 
-import { Item } from "./item";
+import { Item } from "./Cards";
 
 interface Props {
   col: any;
