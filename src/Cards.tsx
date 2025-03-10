@@ -18,7 +18,7 @@ export const Item = ({ item }: Props) => {
   return (
     <Reorder.Item as="div" value={item} id={item} style={{ boxShadow, y }}>
       <div
-        className="flex bg-[#F9F9F9] text-md font-light mb-2 p-4 text-black flex-col items-start space-y-2 "
+        className="flex bg-[#F9F9F9] cursor-grab text-md font-light mb-2 p-4 text-black flex-col items-start space-y-2 "
         style={{
           border: "2px solid #E8EBF0",
 

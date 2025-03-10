@@ -26,7 +26,7 @@ export const Cols = ({ col, setItems, items }: Props) => {
       style={{ boxShadow, y }}
     >
       <div
-        className={`rounded-t-md text-center font-bold text-lg py-2 mb-2`}
+        className={`rounded-t-md text-center font-bold cursor-grab select-none text-lg py-2 mb-2`}
         style={{
           backgroundColor: `${col.color}50`,}}
         onPointerDown={(event) => onDrag.start(event)}
